@@ -1,0 +1,12 @@
+D:\asp.netilkProje\ogrenmeProje\EntityLayer\bin\Debug\EntityLayer.dll.config
+D:\asp.netilkProje\ogrenmeProje\EntityLayer\bin\Debug\EntityLayer.dll
+D:\asp.netilkProje\ogrenmeProje\EntityLayer\bin\Debug\EntityLayer.pdb
+D:\asp.netilkProje\ogrenmeProje\EntityLayer\bin\Debug\EntityFramework.dll
+D:\asp.netilkProje\ogrenmeProje\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\asp.netilkProje\ogrenmeProje\EntityLayer\bin\Debug\EntityFramework.xml
+D:\asp.netilkProje\ogrenmeProje\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\asp.netilkProje\ogrenmeProje\EntityLayer\obj\Debug\EntityLayer.csproj.AssemblyReference.cache
+D:\asp.netilkProje\ogrenmeProje\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+D:\asp.netilkProje\ogrenmeProje\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
+D:\asp.netilkProje\ogrenmeProje\EntityLayer\obj\Debug\EntityLayer.dll
+D:\asp.netilkProje\ogrenmeProje\EntityLayer\obj\Debug\EntityLayer.pdb

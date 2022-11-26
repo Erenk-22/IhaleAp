@@ -1,0 +1,61 @@
+﻿@model EntityLayer.Concrete.IsVer
+@{
+    ViewBag.Title = "Ihale";
+    Layout = null;
+}
+<!doctype html>
+<html lang="tr">
+<head>
+    <title>İHALE LİST</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="~/Content/Form.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <a href="@Url.Action("Index","Test")" style="color:white;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+            </svg>
+        </a>
+        <h3 style="text-align:center;"><label for="IHAlEAC">TEKLİF FORMU</label></h3>
+        @using (Html.BeginForm("MailYolla", "Home", FormMethod.Post))
+        {
+            <ul class="flex-outer">
+                <li>
+                    <label for="FirmaUnvan">FİRMA UNVANI</label>
+                    @Html.TextBoxFor(x => x.FirmaUnvan, new {Value=Model.FirmaUnvan})
+                </li>
+                <li>
+                    <label for="email">Kullanıcı Maili</label>
+                    @Html.TextBoxFor(x => x.KullanıcıMail, new { Value = Model.KullanıcıMail })
+                </li>
+                <li>
+                    <label for="SatilanUrün">Ürün Adı</label>
+                    @Html.TextBoxFor(x => x.SatilanUrün, new { Value = Model.SatilanUrün })
+                </li>
+                <li>
+                    <label for="UrünFiyat">Ürün Fiyatı</label>
+                    @Html.TextBoxFor(x => x.UrünFiyat, new { Value = Model.UrünFiyat })
+                </li>
+                <li>
+                    <label for="UrünMiktar">Ürün Miktarı</label>           
+                    @Html.TextBoxFor(x => x.UrünMiktar, new { Value = Model.UrünMiktar })
+                </li>
+                <li>
+                    <label for="UrünAciklama">Ürün Açıklaması</label>
+                    <input type="text" id="UrünAciklama" name="UrünAciklama" placeholder="Ürün Açıklama Giriniz">
+                </li>
+                <li>
+                    <label for="Adres">ADRES</label>
+                    <input type="text" id="Adres" name="Adres" placeholder="Adres Giriniz">
+                </li>
+                <li>
+                    <button type="submit">Mail Yolla</button>
+                </li>
+            </ul>
+        }
+    </div>
+    <script src="~/Scripts/Form.js"></script>
+</body>
+</html>

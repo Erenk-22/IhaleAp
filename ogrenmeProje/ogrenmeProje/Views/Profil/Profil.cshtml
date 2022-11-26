@@ -1,0 +1,45 @@
+﻿@model EntityLayer.Concrete.KullaniciKayit
+@{
+    Layout = null;
+}
+<!doctype html>
+<html lang="en">
+<head>
+    <title>İHALEAP</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="~/Content/Profil.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="row" style="margin-top: 5rem;">
+        <a href="@Url.Action("Index","Test")" style="color:white; margin-left:40rem; ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+            </svg>
+        </a>
+        <div class="col-md-12">
+            <form action="index.html" method="post">
+                <h1 style="margin-top:20px;">PROFİL</h1>
+                <fieldset>
+                    <label for="name">Firma Adı:</label>
+                    <input type="text" id="name" value="@Model.FirmaAdi" name="" readonly>
+                    <label for="email">Firma Unvaı:</label>
+                    <input type="text" id="mail" value="@Model.FirmaUnvan" name="" readonly>
+                    <label for="password">Vergi Dairesi:</label>
+                    <input type="text" id="password" value="@Model.VergiDairesi" name="" readonly>
+                    <label for="name">Vergi Numarası:</label>
+                    <input type="number" id="name" value="@Model.VergiNumarası" name="" readonly>
+                    <label for="name">Telefon:</label>
+                    <input type="tel" id="name" value="@Model.Telefon" name="" readonly>
+                    <label for="name">Mail:</label>
+                    <input type="email" id="name" value="@Model.Mail" name="" readonly>
+                    <label for="name">Adres:</label>
+                    <input type="text" id="name" value="@Model.Adres" name="" readonly>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+
+    </body>
+</html>

@@ -1,0 +1,47 @@
+﻿
+@{
+    Layout = null;
+}
+<!doctype html>
+<html lang="en">
+<head>
+    <title>İHALEAP</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="~/Content/Card.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+</head>
+<body>
+
+
+    <section class="hero-section" >
+        <div class="card-grid"style="margin-top:15rem;">
+            <a class="card" href="@Url.Action("Ihale","Home")">
+                <div class="card__background" style="background-image: url(https://yitdb.alanya.edu.tr/images/duyuru-images/ihale.jpg)"></div>
+                <div class="card__content">
+                    <h3 class="card__heading"style="text-align:center;">İHALE VER</h3>
+                </div>
+            </a>
+            <a class="card" href="@Url.Action("IhaleList","Home")">
+                <div class="card__background" style="background-image: url(https://www.tusecretariavirtual.net/wp-content/uploads/2017/02/marketing2.png) "></div>
+                <div class="card__content">
+                    <h3 class="card__heading"style="text-align:center;">TEKLİF VER</h3>
+                </div>
+            </a>
+            <a class="card" href="#">
+                <div class="card__background" style="background-image: url(https://st3.depositphotos.com/5045705/34932/v/600/depositphotos_349325326-stock-illustration-clipboard-checklist-pencil-list-task.jpg)"></div>
+                <div class="card__content">
+                    <h3 class="card__heading" style="padding-left:50px;">LİSTELER</h3>
+                </div>
+       </a>
+                <a class="card" href="/Profil/Profil/@Session["Userİd"]">
+                    <div class="card__background" style="background-image: url(https://www.pngitem.com/pimgs/m/80-800194_transparent-users-icon-png-flat-user-icon-png.png)"></div>
+                    <div class="card__content">
+                        <h3 class="card__heading" style="padding-left: 40px; ">BİLGİLERİM</h3>
+                    </div>
+                </a>
+            </a>
+        </div>
+    </section>
+    </body>
+</html>

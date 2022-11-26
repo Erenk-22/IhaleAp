@@ -1,0 +1,15 @@
+D:\asp.netilkProje\ogrenmeProje\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+D:\asp.netilkProje\ogrenmeProje\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+D:\asp.netilkProje\ogrenmeProje\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+D:\asp.netilkProje\ogrenmeProje\DataAccessLayer\bin\Debug\EntityFramework.dll
+D:\asp.netilkProje\ogrenmeProje\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\asp.netilkProje\ogrenmeProje\DataAccessLayer\bin\Debug\EntityLayer.dll
+D:\asp.netilkProje\ogrenmeProje\DataAccessLayer\bin\Debug\EntityLayer.pdb
+D:\asp.netilkProje\ogrenmeProje\DataAccessLayer\bin\Debug\EntityLayer.dll.config
+D:\asp.netilkProje\ogrenmeProje\DataAccessLayer\bin\Debug\EntityFramework.xml
+D:\asp.netilkProje\ogrenmeProje\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\asp.netilkProje\ogrenmeProje\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+D:\asp.netilkProje\ogrenmeProje\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\asp.netilkProje\ogrenmeProje\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+D:\asp.netilkProje\ogrenmeProje\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+D:\asp.netilkProje\ogrenmeProje\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

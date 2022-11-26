@@ -1,0 +1,112 @@
+﻿@model EntityLayer.Concrete.KullaniciKayit
+@{
+    Layout = null;
+}
+<!doctype html>
+<html lang="en">
+<head>
+    <title>İHALEAP</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="~/Content/Color.css" rel="stylesheet" />
+</head>
+<body>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <div class="body">
+        <div class="veen">
+            <div class="login-btn splits">
+                <p>Zaten Bir Kuulanıcı Mısınız?</p>
+                <button class="active">Giriş Yap</button>
+            </div>
+            <div class="rgstr-btn splits">
+                <p>Kullanıcı Hesabınız Yok mu?</p>
+                <button>Kayıt Ol</button>
+            </div>
+            <div class="wrapper" style="padding-top:80px; height:60rem;">
+                @*<form id="login" tabindex="500">*@
+                @using (Html.BeginForm("Index", "Login", FormMethod.Post, new { id = "login", tabindex = "500", onkeydown = "return event.keyCode!=13" }))
+                {
+
+                    <h3>Giriş Yap</h3>
+                    <div class="mail">
+                        <input type="text" name="Mail">
+                        <label>Mail</label>
+                    </div>
+                    <div class="passwd">
+                        <input type="password" name="Password">
+                        <label>Password</label>
+                    </div>
+                    <div class="submit">
+                        <button type="submit" class="dark">Giriş Yap</button>
+                    </div>
+                }
+                @*</form>*@
+                @using (Html.BeginForm("SıgnUp", "Login", FormMethod.Post, new { id = "register", tabindex = "502", onkeydown = "return event.keyCode!=13" }))
+                {
+                    <h3 style="padding-top:50px;">Kayıt Ol</h3>
+                    <div class="name">
+                        <input type="text" name="FirmaAdi">
+                        <label>Firma Adı</label>
+                    </div>
+                    <div class="name">
+                        <input type="text" name="FirmaUnvan">
+                        <label>Firma Unvan</label>
+                    </div>
+                    <div class="uid">
+                        <input type="text" name="VergiDairesi">
+                        <label>Vergi Dairesi</label>
+                    </div>
+                    <div class="passwd">
+                        <input type="number" name="VergiNumarası">
+                        <label>Vergi Numarası</label>
+                    </div>
+                    <div class="name">
+                        <input type="tel" name="Telefon">
+                        <label>Telefon</label>
+                    </div>
+                    <div class="name">
+                        <input type="text" name="Adres">
+                        <label>Adres</label>
+                    </div>
+                    <div class="mail">
+                        <input type="email" name="Mail">
+                        <label>Mail</label>
+                    </div>
+                    <div class="name">
+                        <input type="Password" name="Password">
+                        <label>Şifre</label>
+                    </div>
+                    <div class="submit">
+                        <button type="submit" class="dark">Kayıt Ol</button>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+
+    <style type="text/css">
+        .site-link {
+            padding: 5px 15px;
+            position: fixed;
+            z-index: 99999;
+            background: #fff;
+            box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+            right: 30px;
+            bottom: 30px;
+            border-radius: 10px;
+        }
+
+            .site-link img {
+                width: 30px;
+                height: 30px;
+            }
+    </style>
+    <script src="~/Scripts/Color.js"></script>
+</body>
+</html>
+
+
